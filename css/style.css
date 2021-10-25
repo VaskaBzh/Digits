@@ -3,6 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+@font-face {font-family: "Halyard Text Regular";
+    src: url("89248b0583721153668df86453b579de.eot"); /* IE9*/
+    src: url("89248b0583721153668df86453b579de.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("89248b0583721153668df86453b579de.woff2") format("woff2"), /* chrome、firefox */
+    url("89248b0583721153668df86453b579de.woff") format("woff"), /* chrome、firefox */
+    url("89248b0583721153668df86453b579de.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("89248b0583721153668df86453b579de.svg#Halyard Text Regular") format("svg"); /* iOS 4.1- */
+}
 body {
     background: #d4d2d2;
 }
@@ -27,7 +35,7 @@ body {
     background: #FFFFFF;
 }
 .logo {
-    max-width: 81px;
+    max-width: 84px;
 }
 .nav {
     font-family: Halyard Text;
@@ -39,23 +47,104 @@ body {
     margin-right: 45px;
     color: #1E266D;
 }
-.input {
-    border: none;
+.tel_button {
+    max-width: 310px;
+    width: 100%;
 }
-.input:active {
-    border: none;
-}
-.input:hover {
-    border: none;
-}
-.input:focus {
-    border: none;
-}
-.input::placeholder {
+.tel {
+    margin-right: 34px;
     font-family: Halyard Text;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 80px;
     color: #1E266D;
+}
+.button--primary {
+    color: #FFFFFF;
+    background: #3751FF;
+}
+.button_contact {
+    max-width: 113px;
+    width: 100%;
+    padding-left: 16px;
+    padding-right: 14px;
+    font-family: Halyard Text;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 40px;
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+button {
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+}
+.section__promo {
+    min-height: 876px;
+    padding-top: 144px;
+    background: linear-gradient(180deg, rgba(242, 249, 255, 0.12) 0%, #F2F9FF 100%);
+}
+.h1__promo {
+    text-align: center;
+    color: #1E266D;
+    font-family: Halyard Display;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 105%;
+}
+.p__promo {
+    margin-top: 27px;
+    margin-bottom: 29px;
+    text-align: center;
+    font-family: Halyard Text;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    color: #455880;
+}
+.button_block {
+    max-width: 370px;
+    margin: auto;
+}
+.button_buy {
+    max-width: 148px;
+    width: 100%;
+    padding: 17px 18px;
+    font-family: Halyard Text;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 100%;
+    text-align: center;
+}
+.button--secondary {
+    color: #455880;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+}
+.button_see {
+    max-width: 199px;
+    width: 100%;
+    padding-left: 29px;
+    padding-right: 29px;
+    font-family: Halyard Text;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 50px;
+    text-align: center;
+}
+.promo_img {
+    position: absolute;
+    top: 530px;
+    left: 480px;
+    max-width: 977px;
+    width: 100%;
 }
