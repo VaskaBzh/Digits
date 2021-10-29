@@ -19,7 +19,6 @@ body {
     width: 100%;
     margin: auto;
 }
-
 .block {
     display: flex;
     justify-content: space-between;
@@ -29,14 +28,31 @@ body {
     max-width: 1600px;
     width: 100%;
     margin: auto;
+    background: #FFFFFF;
 }
 .section__header {
     padding-top: 22px;
-    background: #FFFFFF;
 }
 .logo {
     max-width: 84px;
 }
+.h1 {
+    color: #1E266D;
+    text-align: center;
+}
+.h3 {
+    min-height: 59px;
+    color: #1E266D;
+    font-family: Halyard Display;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 125%;
+}
+.p {
+    color: #455880;
+    text-align: center;
+}   
 .nav {
     font-family: Halyard Text;
     font-style: normal;
@@ -79,10 +95,11 @@ body {
     cursor: pointer;
     text-align: center;
 }
-button {
+.buttons {
     border-radius: 100px;
     border: none;
     cursor: pointer;
+    text-align: center;
 }
 .section__promo {
     min-height: 876px;
@@ -139,7 +156,6 @@ button {
     font-weight: normal;
     font-size: 16px;
     line-height: 50px;
-    text-align: center;
 }
 .promo_img {
     position: absolute;
@@ -147,4 +163,85 @@ button {
     left: 480px;
     max-width: 977px;
     width: 100%;
+}
+.section__pictures {
+    padding-top: 180px;
+}
+.span__pictures {
+    font-family: Halyard Text;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 27px;
+    color: rgba(69, 88, 128, 0.5);
+    margin-bottom: 50px;
+}
+.logo-studio {
+    max-width: 110px;
+    width: 100%;
+    margin-right: 72px;
+}
+.section__work {
+    padding-top: 162px;
+}
+.part {
+    max-width: 405px;
+    width: 100%;
+    border-bottom: 1px solid rgba(69, 88, 128, 0.2);
+    margin-bottom: 41px;
+}
+.h1__work {
+    font-family: Halyard Display;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 105%;
+}
+.block__span {
+    justify-content: center;
+}
+.full_work {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    margin-top: 122px;
+}
+.div_work {
+    max-width: 290px;
+    width: 100%;
+}
+.p__work {
+    text-align: left;
+    min-height: 134px;
+    font-family: Halyard Text;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+}
+.part_end {
+    border: none;
+}
+.mini-logo1 {
+    margin-left: 5px;
+    margin-top: 3px;
+}
+.back {
+    display: flex;
+    min-height: 58px;
+    max-width: 58px;
+    width: 100%;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 134px;
+}
+.back_1 {
+    background: #B5F2E3;
+}
+.back_2 {
+    background: #FACFCA;
+}
+.back_3 {
+    background: #F8AEC3;
 }
