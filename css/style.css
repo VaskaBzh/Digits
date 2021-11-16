@@ -157,11 +157,15 @@ body {
     font-size: 16px;
     line-height: 50px;
 }
+.block__promo {
+    position: relative;
+}
 .promo_img {
     position: absolute;
-    top: 530px;
-    left: 480px;
-    max-width: 977px;
+    top: 120%;
+    left: 50%;
+    margin-left: -484px;
+    max-width: 978px;
     width: 100%;
 }
 .section__pictures {
@@ -182,7 +186,7 @@ body {
     margin-right: 72px;
 }
 .section__work {
-    background: #fff url(../img/Graphic1.png) no-repeat top 160px left 205px;
+    background: #fff url(../img/Graphic1.png) no-repeat top 160px left 20%;
     padding-top: 162px;
     padding-bottom: 150px;
 }
