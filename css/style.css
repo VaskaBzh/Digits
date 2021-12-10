@@ -468,6 +468,10 @@ body {
 
 @media (max-width: 1024px) {
 
+.section {
+    width: 95%;
+}
+
 .container {
     width: 95%;
 }
@@ -524,14 +528,14 @@ body {
     flex-wrap: wrap;
 }
 
-.navs {
-    flex-wrap: wrap;
+.section__header {
+    padding-bottom: 22px;
 }
 
 .header_block {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .nav {
@@ -540,7 +544,143 @@ body {
 }
 
 .tel {
-    line-height: normal;
-    
+    line-height: normal; 
+    margin: 0;
+}
+
+.section__promo {
+    min-height: 780px;
+}
+
+.promo_img {
+    margin-left: -180px;
+    top: 120%
+}
+
+.section__pictures {
+    padding-top: 100px;
+}
+
+.img_logo {
+    margin-bottom: 25px;
+}
+
+.i7 {
+    margin: auto;
+}
+
+.section__work {
+    padding-top: 50px;
+    padding-bottom:  74px;
+}
+
+.section__meets {
+    min-height: 800px;
+    padding-top: 80px;
+}
+
+.block__what {
+    flex-direction: column;
+    align-items: center;
+}
+
+.what_part {
+    margin-bottom: 5px;
+}
+
+.logo_end {
+    margin-bottom: 15px;
+}
+
+.div__digits {
+    margin-bottom: 15px;
+}
+
+.main__footer {
+    flex-wrap: wrap;
+}
+
+.div__digits {
+    min-height: 150px;
+}
+
+.main__footer { 
+    align-items: center;
+    justify-content: center;
+}
+
+.header_block {
+    width: 100%;
+}
+}
+
+@media (max-width: 375px) {
+
+.nav {
+    margin: 7px;
+}
+
+.list {
+    margin-right: 0;
+}
+
+.block_footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.section__footer {
+    padding-top: 80px;
+    padding-bottom: 70px;
+}
+
+.navs {
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.promo_img {
+    margin-left: -160px;
+}
+
+.back {
+    margin-right: 5px;
+}
+}
+
+@media (max-width: 320px) {
+
+.section__meets {
+    min-height: 1001px;
+}
+
+.button_see {
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 227px;
+    margin-left: 5px;
+}
+
+.promo_img {
+    margin-left: -135px;
+}
+
+.button_get {
+    padding: 17px 15px 13px 53px
+}
+
+.block_ready {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.h1__ready {
+    text-align: center;
+}
+
+.block__ready {
+    align-items: center;
 }
 }
