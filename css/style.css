@@ -465,3 +465,82 @@ body {
     color: #455880;
     text-decoration: none;
 }
+
+@media (max-width: 1024px) {
+
+.container {
+    width: 95%;
+}
+
+.what_part {
+    margin-right: 5px;
+}
+
+.what_part:nth-child(3) {
+    margin-right: 0;
+}
+
+.section__work {
+    background: #fff url(../img/Graphic1.png) no-repeat top 160px left 4%;
+}
+}
+
+@media (max-width: 768px) {
+
+.tel {
+    margin: auto;
+}
+
+.logo {
+    display: none;
+}
+
+.nav {
+    margin-right: 30px;
+}
+
+.promo_img {
+    margin-left: -340px;
+    top: 130%;
+}
+
+.section__work {
+    background: #fff;
+}
+
+.full_work {
+    align-items: center;
+}
+
+.what_text {
+    padding: 10px 15px 0 15px;
+    min-height: 240px;
+}
+}
+
+@media (max-width: 425px) {
+
+.adapt {
+    flex-wrap: wrap;
+}
+
+.navs {
+    flex-wrap: wrap;
+}
+
+.header_block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.nav {
+    margin: 10px;
+    line-height: normal;
+}
+
+.tel {
+    line-height: normal;
+    
+}
+}
