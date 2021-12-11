@@ -62,6 +62,11 @@ body {
     text-decoration: none;
     margin-right: 45px;
     color: #1E266D;
+    transition-duration: 300ms;
+    transition-property: all;
+}
+.nav:hover {
+    color: #3642a7;
 }
 .tel_button {
     max-width: 310px;
@@ -100,7 +105,14 @@ body {
     border: none;
     cursor: pointer;
     text-align: center;
+    transition-duration: 500ms;
+    transition-property: all;
 }
+
+.buttons:hover {
+    transform: scale(1.1);
+}
+
 .section__promo {
     min-height: 876px;
     padding-top: 144px;
@@ -138,7 +150,7 @@ body {
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    line-height: 100%;
+    line-height: normal;
     text-align: center;
 }
 .button--secondary {
@@ -149,13 +161,12 @@ body {
 .button_see {
     max-width: 199px;
     width: 100%;
-    padding-left: 29px;
-    padding-right: 29px;
+    padding: 17px 18px;
+    line-height: normal;
     font-family: Halyard Text;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    line-height: 50px;
 }
 .block__promo {
     position: relative;
@@ -466,7 +477,33 @@ body {
     text-decoration: none;
 }
 
+.nav_footer {
+    transition-duration: 300ms;
+    transition-property: all;
+}
+
+.nav_footer:hover {
+    transform: scale(1.1);
+}
+
+a {
+    transition-duration: 300ms;
+    transition-property: all;
+}
+
+a:hover {
+    color:rgba(0, 0, 0, 0.5)
+}
+
 @media (max-width: 1024px) {
+
+.logo {
+    margin-right: 10px;
+}
+
+.promo_img {
+    margin-left: -440px;
+}
 
 .section {
     width: 95%;
@@ -486,6 +523,15 @@ body {
 
 .section__work {
     background: #fff url(../img/Graphic1.png) no-repeat top 160px left 4%;
+}
+
+.adapt {
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.img_logo {
+    margin-bottom: 10px;
 }
 }
 
@@ -518,7 +564,7 @@ body {
 
 .what_text {
     padding: 10px 15px 0 15px;
-    min-height: 240px;
+    min-height: 300px;
 }
 }
 
@@ -563,10 +609,8 @@ body {
 
 .img_logo {
     margin-bottom: 25px;
-}
-
-.i7 {
-    margin: auto;
+    transition-duration: 300ms;
+    transition-property: all;
 }
 
 .section__work {
@@ -598,15 +642,11 @@ body {
 
 .main__footer {
     flex-wrap: wrap;
+    justify-content: flex-start;
 }
 
 .div__digits {
     min-height: 150px;
-}
-
-.main__footer { 
-    align-items: center;
-    justify-content: center;
 }
 
 .header_block {
@@ -615,6 +655,10 @@ body {
 }
 
 @media (max-width: 375px) {
+
+.section__meets {
+    min-height: 880px;
+}
 
 .nav {
     margin: 7px;
@@ -647,40 +691,66 @@ body {
 .back {
     margin-right: 5px;
 }
-}
-
-@media (max-width: 320px) {
-
-.section__meets {
-    min-height: 1001px;
-}
-
-.button_see {
-    padding-left: 15px;
-    padding-right: 15px;
-    max-width: 227px;
-    margin-left: 5px;
-}
-
-.promo_img {
-    margin-left: -135px;
-}
-
-.button_get {
-    padding: 17px 15px 13px 53px
-}
 
 .block_ready {
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+}
+
+.navs {
+    justify-content: space-around;
+}
+
+.button_see {
+    padding: 17px 15px;
+}
+
+.button_buy {
+    padding: 17px 15px;
+    max-width: 227px;
+    margin-right: 5px;
+    width: 100%;
 }
 
 .h1__ready {
     text-align: center;
 }
 
+.button_get {
+    margin-left: 0;
+}
+
 .block__ready {
     align-items: center;
+}
+}
+
+@media (max-width: 320px) {
+
+.button_see {
+    padding: 15px 15px;
+    font-size: 90%;
+}
+
+.section__meets {
+    min-height: 800px;
+}
+
+.tel_button {
+    width: 95%;
+}
+
+.section__meets {
+    min-height: 1001px;
+}
+
+.promo_img {
+    margin-left: -135px;
+    top: 123%;
+}
+
+.button_get {
+    padding: 17px 15px 13px 53px
 }
 }
