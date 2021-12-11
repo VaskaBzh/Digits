@@ -497,6 +497,9 @@ a:hover {
 
 @media (max-width: 1024px) {
 
+.div__digits {
+    margin-right: 5px;
+}
 .logo {
     margin-right: 10px;
 }
